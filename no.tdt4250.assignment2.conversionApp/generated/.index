@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp" increment="1569334589791">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="no.tdt4250.assignment2.conversionApp"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.0.0.201909241416" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.0.0.201909241416" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="no.tdt4250.assignment2.conversionApp"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.0.0.201909241416" type="Version"/>
+      <attribute name="osgi.wiring.host" value="no.tdt4250.assignment2.conversionApp"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="1840343" type="Long"/>
+      <attribute name="url" value="generated/no.tdt4250.assignment2.conversionApp.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="77BB765091AFBF31610A5B49D7AB59212797A48D9E1C95916F109D3CDF3B5A1B"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/C:/Users/oddgu/eclipse-workspace"/>
+      <attribute name="project.path" value="/no.tdt4250.assignment2.conversionApp"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>
