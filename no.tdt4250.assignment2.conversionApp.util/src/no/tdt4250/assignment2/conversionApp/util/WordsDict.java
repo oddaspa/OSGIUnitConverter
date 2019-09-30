@@ -114,10 +114,30 @@ public class WordsDict implements Dict {
 	}
 	
 	public DictSearchResult search(String searchKey) {
-		if (words != null && words.hasWord(searchKey)) {
-			return new DictSearchResult(true, String.format(getSuccessMessageStringFormat(), searchKey), null);
+		String searchKeyP = searchKey.substring(0, 2);
+		char from = searchKey.charAt(0);
+		char to = searchKey.charAt(1);
+		String vals = searchKey.substring(2);
+		if (words != null && words.hasWord(searchKeyP)) {
+			double parsed_word = getParse(searchKey);
+			return new DictSearchResult(true, String.format(getSuccessMessageStringFormat(), searchKeyP) + " " + vals + from + "=" + parsed_word + to, null);
 		} else {
-			return new DictSearchResult(false, String.format(getFailureMessageStringFormat(), searchKey), null);
+			return new DictSearchResult(true, String.format(getFailureMessageStringFormat(), searchKey), null);
 		}
+	}
+	
+	protected double getParse(String searchKey) {
+		char from = searchKey.charAt(0);
+		char to = searchKey.charAt(1);
+		String value = searchKey.substring(2);
+		
+		double val = Double.valueOf(value);
+		if (from == 'k') {
+			val = val / 0.45359237;
+		}else {
+			val = val * 0.45359237;
+		}
+		System.out.println(val);
+		return val;
 	}
 }

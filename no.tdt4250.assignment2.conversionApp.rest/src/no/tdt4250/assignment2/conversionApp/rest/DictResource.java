@@ -39,7 +39,6 @@ public class DictResource {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public DictSearchResult search(@QueryParam("q") String q) throws JsonProcessingException {
-		System.out.println(q);
 		return getDictSearch().search(q);
 	}
 	
