@@ -34,7 +34,7 @@ public class DictSearch {
 			if (result.isSuccess()) {
 				messages.append(result.getMessage());
 				messages.append("(" + dict.getDictName() + ")\n");
-				messages.append(searchKey);
+				
 				success = true;
 				if (link == null) {
 					link = result.getLink();

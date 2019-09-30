@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.rest" increment="1569828602792">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.rest" increment="1569831243537">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="no.tdt4250.assignment2.conversionApp.rest"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="0.0.0.201909300730" type="Version"/>
+      <attribute name="version" value="0.0.0.201909300814" type="Version"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="0.0.0.201909300730" type="Version"/>
+      <attribute name="bundle-version" value="0.0.0.201909300814" type="Version"/>
       <attribute name="osgi.wiring.bundle" value="no.tdt4250.assignment2.conversionApp.rest"/>
     </capability>
     <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="0.0.0.201909300730" type="Version"/>
+      <attribute name="bundle-version" value="0.0.0.201909300814" type="Version"/>
       <attribute name="osgi.wiring.host" value="no.tdt4250.assignment2.conversionApp.rest"/>
     </capability>
     <capability namespace="osgi.service">
@@ -24,7 +24,7 @@
       <attribute name="size" value="10664" type="Long"/>
       <attribute name="url" value="generated/no.tdt4250.assignment2.conversionApp.rest.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="0FC52BA445FF6AC888B133BAD99CE8DCD62F074B63D830C6FD21B828015B9F87"/>
+      <attribute name="osgi.content" value="775D54C2E1F61BBC8069DD3BDE54913F8AC8B349C8EE74E784953613CF596CB3"/>
     </capability>
     <capability namespace="bndtools.workspace">
       <attribute name="bndtools.workspace" value="file:/C:/Users/oddgu/eclipse-workspace"/>

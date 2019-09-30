@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.gogo" increment="1569830254833">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.gogo" increment="1569836290221">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="no.tdt4250.assignment2.conversionApp.gogo"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="0.0.0.201909300757" type="Version"/>
+      <attribute name="version" value="0.0.0.201909300938" type="Version"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="0.0.0.201909300757" type="Version"/>
+      <attribute name="bundle-version" value="0.0.0.201909300938" type="Version"/>
       <attribute name="osgi.wiring.bundle" value="no.tdt4250.assignment2.conversionApp.gogo"/>
     </capability>
     <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="0.0.0.201909300757" type="Version"/>
+      <attribute name="bundle-version" value="0.0.0.201909300938" type="Version"/>
       <attribute name="osgi.wiring.host" value="no.tdt4250.assignment2.conversionApp.gogo"/>
     </capability>
     <capability namespace="osgi.service">
       <attribute name="objectClass" value="no.tdt4250.assignment2.conversionApp.gogo.DictCommands" type="List&lt;String&gt;"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="size" value="8648" type="Long"/>
+      <attribute name="size" value="8645" type="Long"/>
       <attribute name="url" value="generated/no.tdt4250.assignment2.conversionApp.gogo.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="9C7800E85A11A39B7B418D74B1D5D084B068AEF5B7C9F1F12243EA3B8C0EB756"/>
+      <attribute name="osgi.content" value="CB1FB4706B068DFED70741A95CBDE3CB53BC6857B9F9733E0CDF7739FA6E9A77"/>
     </capability>
     <capability namespace="bndtools.workspace">
       <attribute name="bndtools.workspace" value="file:/C:/Users/oddgu/eclipse-workspace"/>

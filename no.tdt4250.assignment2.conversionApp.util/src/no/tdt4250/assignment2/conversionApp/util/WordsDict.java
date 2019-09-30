@@ -114,14 +114,18 @@ public class WordsDict implements Dict {
 	}
 	
 	public DictSearchResult search(String searchKey) {
-		String searchKeyP = searchKey.substring(0, 2);
-		char from = searchKey.charAt(0);
-		char to = searchKey.charAt(1);
-		String vals = searchKey.substring(2);
-		if (words != null && words.hasWord(searchKeyP)) {
-			double parsed_word = getParse(searchKey);
-			return new DictSearchResult(true, String.format(getSuccessMessageStringFormat(), searchKeyP) + " " + vals + from + "=" + parsed_word + to, null);
-		} else {
+		if(searchKey.length() > 2) {
+			String searchKeyP = searchKey.substring(0, 2);
+			char from = searchKey.charAt(0);
+			char to = searchKey.charAt(1);
+			String vals = searchKey.substring(2);
+			if (words != null && words.hasWord(searchKeyP)) {
+				double parsed_word = getParse(searchKey);
+				return new DictSearchResult(true, String.format(getSuccessMessageStringFormat(), searchKeyP) + "\n" + vals + from + "=" + parsed_word + to, null);
+			} else {
+				return new DictSearchResult(true, String.format(getFailureMessageStringFormat(), searchKeyP), null);
+			}
+		}else {
 			return new DictSearchResult(true, String.format(getFailureMessageStringFormat(), searchKey), null);
 		}
 	}
@@ -137,7 +141,6 @@ public class WordsDict implements Dict {
 		}else {
 			val = val * 0.45359237;
 		}
-		System.out.println(val);
 		return val;
 	}
 }
