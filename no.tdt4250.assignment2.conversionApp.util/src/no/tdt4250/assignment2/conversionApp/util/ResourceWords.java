@@ -11,14 +11,15 @@ public class ResourceWords extends SortedSetWords {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(input, "utf-8"));
 		String line = null;
 		nextLine: while ((line = reader.readLine()) != null) {
-			for (int i = 0; i < line.length(); i++) {
-				if (! Character.isLetter(line.charAt(i))) {
-					if (i > 0) {
-						addWord(line.substring(0, i).toLowerCase());
-					}
-					continue nextLine;
-				}
-			}
+			// Need to accept signs and numbers for formulas too.
+			//for (int i = 0; i < line.length(); i++) {
+			//	if (! Character.isLetter(line.charAt(i))) {
+			//		if (i > 0) {
+			//			addWord(line.substring(0, i).toLowerCase());
+			//		}
+			//		continue nextLine;
+			//	}
+			//}
 			addWord(line.toLowerCase());
 		}
 	}

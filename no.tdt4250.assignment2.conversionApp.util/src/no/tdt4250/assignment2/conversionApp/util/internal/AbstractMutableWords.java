@@ -9,9 +9,10 @@ public abstract class AbstractMutableWords implements MutableWords {
 		int count = word.length(), lowerCount = 0, upperCount = 0;
 		for (int i = 0; i < count; i++) {
 			char c = word.charAt(i);
-			if (! Character.isLetter(c)) {
-				return false;
-			}
+			// Using numbers now!
+			//if (! Character.isLetter(c)) {
+			//	return false;
+			//}
 			if (Character.isLowerCase(c)) {
 				lowerCount++;
 			} else if (Character.isUpperCase(c)) {

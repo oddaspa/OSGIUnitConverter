@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.test" increment="1569230579090">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.test" increment="1569928184910">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="no.tdt4250.assignment2.conversionApp.test"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="0.0.0.201909230922" type="Version"/>
+      <attribute name="version" value="0.0.0.201910011109" type="Version"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="0.0.0.201909230922" type="Version"/>
+      <attribute name="bundle-version" value="0.0.0.201910011109" type="Version"/>
       <attribute name="osgi.wiring.bundle" value="no.tdt4250.assignment2.conversionApp.test"/>
     </capability>
     <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="0.0.0.201909230922" type="Version"/>
+      <attribute name="bundle-version" value="0.0.0.201910011109" type="Version"/>
       <attribute name="osgi.wiring.host" value="no.tdt4250.assignment2.conversionApp.test"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="size" value="3850" type="Long"/>
+      <attribute name="size" value="3851" type="Long"/>
       <attribute name="url" value="generated/no.tdt4250.assignment2.conversionApp.test.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="B484F58DB3640144EF5EF6A5DA0EBC0547ED0D3A2E1FCA557524A248DD5384E4"/>
+      <attribute name="osgi.content" value="6B96DE83D37F5243669539B966FB2AB905AE2A80AB3E6F545D0449E42C0F02D6"/>
     </capability>
     <capability namespace="bndtools.workspace">
       <attribute name="bndtools.workspace" value="file:/C:/Users/oddgu/eclipse-workspace"/>
