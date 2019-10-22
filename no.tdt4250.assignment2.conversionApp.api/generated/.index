@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.api" increment="1569928183935">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="no.tdt4250.assignment2.conversionApp.api" increment="1571732343577">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="no.tdt4250.assignment2.conversionApp.api"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="1.0.0.201910011109" type="Version"/>
+      <attribute name="version" value="1.0.0.201910220819" type="Version"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="1.0.0.201910011109" type="Version"/>
+      <attribute name="bundle-version" value="1.0.0.201910220819" type="Version"/>
       <attribute name="osgi.wiring.bundle" value="no.tdt4250.assignment2.conversionApp.api"/>
     </capability>
     <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="1.0.0.201910011109" type="Version"/>
+      <attribute name="bundle-version" value="1.0.0.201910220819" type="Version"/>
       <attribute name="osgi.wiring.host" value="no.tdt4250.assignment2.conversionApp.api"/>
     </capability>
     <capability namespace="osgi.wiring.package">
@@ -19,13 +19,13 @@
       <attribute name="osgi.wiring.package" value="no.tdt4250.assignment2.conversionApp.api"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="size" value="13177" type="Long"/>
+      <attribute name="size" value="13229" type="Long"/>
       <attribute name="url" value="generated/no.tdt4250.assignment2.conversionApp.api.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="B49CE1C78CCA1ED102B65F11C71F4D01D279DCB062EF334769F48823CFD96082"/>
+      <attribute name="osgi.content" value="877F5DDDD4D1598FF32920A88FD47B259A9EE95B78E12E5AC482F4388FADE05B"/>
     </capability>
     <capability namespace="bndtools.workspace">
-      <attribute name="bndtools.workspace" value="file:/C:/Users/oddgu/eclipse-workspace"/>
+      <attribute name="bndtools.workspace" value="file:/C:/Users/oddgu/Programmering/TDT4250/git_folder/model-transformation"/>
       <attribute name="project.path" value="/no.tdt4250.assignment2.conversionApp.api"/>
     </capability>
     <requirement namespace="osgi.ee">
